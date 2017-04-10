@@ -1,7 +1,7 @@
 Virtualhost Manage Script
 ===========
 
-Bash Script to allow create or delete apache virtual hosts in Ubuntu a quick way.
+Bash Script to create or delete apache virtual hosts in Ubuntu quickly.
 
 ## Installation ##
 
