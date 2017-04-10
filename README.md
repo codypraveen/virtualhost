@@ -13,6 +13,11 @@ if you copy it without the .sh extension:
 $ sudo cp /path/to/virtualhost.sh /usr/local/bin/virtualhost
 ```
 
+3. Apply permission to execute:
+```
+chmod +x /path/to/virtualhost
+```
+
 ## Usage ##
 
 With script installed on /usr/local/bin
