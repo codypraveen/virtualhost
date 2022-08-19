@@ -10,12 +10,12 @@ Bash Script to create or delete apache virtual hosts in Ubuntu quickly.
 if you copy it without the .sh extension:
 
 ```bash
-$ sudo cp /path/to/virtualhost.sh /usr/local/bin/virtualhost
+sudo cp /path/to/virtualhost.sh /usr/local/bin/virtualhost
 ```
 
 3. Apply permission to execute:
 ```
-chmod +x /path/to/virtualhost
+chmod +x /usr/local/bin/virtualhost
 ```
 
 ## Usage ##
@@ -23,13 +23,13 @@ chmod +x /path/to/virtualhost
 With script installed on /usr/local/bin
 
 ```bash
-$ sudo virtualhost [create | delete] [domain] [optional root_dir]
+sudo virtualhost [create | delete] [domain] [optional root_dir]
 ```
 
 Basic command line syntax:
 
 ```bash
-$ sudo sh /path/to/virtualhost.sh [create | delete] [domain] [optional root_dir]
+sudo sh /path/to/virtualhost.sh [create | delete] [domain] [optional root_dir]
 ```
 
 ### Examples ###
@@ -37,21 +37,21 @@ $ sudo sh /path/to/virtualhost.sh [create | delete] [domain] [optional root_dir]
 to create a new virtual host:
 
 ```bash
-$ sudo virtualhost create mysite.dev
+sudo virtualhost create mysite.dev
 ```
 to create a new virtual host with custom directory name:
 
 ```bash
-$ sudo virtualhost create anothersite.dev root_dir
+sudo virtualhost create anothersite.dev root_dir
 ```
 to delete a virtual host
 
 ```bash
-$ sudo virtualhost delete mysite.dev
+sudo virtualhost delete mysite.dev
 ```
 
 to delete a virtual host with custom directory name:
 
 ```
-$ sudo virtualhost delete anothersite.dev root_dir
+sudo virtualhost delete anothersite.dev root_dir
 ```
